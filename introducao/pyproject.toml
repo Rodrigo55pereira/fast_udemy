@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "introducao"
+version = "0.1.0"
+description = ""
+authors = ["Rodrigo55pereira <rodrigo55pereira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
