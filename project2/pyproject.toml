@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "project2"
+version = "0.1.0"
+description = ""
+authors = ["Rodrigo55pereira <rodrigo55pereira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+fastapi = "^0.110.0"
+uvicorn = "^0.28.0"
+sqlalchemy = "^2.0.28"
+psycopg2-binary = "^2.9.9"
+pytest = "^8.1.1"
+alembic = "^1.13.1"
+python-decouple = "^3.8"
+httpx = "^0.27.0"
+
+[tool.pyright]
+venvPath = "/home/rpereira/.cache/pypoetry/virtualenvs"
+venv = "project2-mPQn6XVt-py3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
